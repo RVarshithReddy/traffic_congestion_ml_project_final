@@ -1,0 +1,30 @@
+TRAFFICLENS AI - FAST START
+============================
+
+1. Install Python 3.11+ and Node.js 18+.
+2. Double-click START_PROJECT.bat.
+3. The script creates the Python virtual environment, installs backend packages, installs frontend packages, starts both servers, and opens the dashboard.
+4. Dashboard: http://localhost:5173
+5. Backend: http://localhost:5000
+
+FIRST RUN NOTE
+--------------
+The first run can take a little longer because dependencies are installed.
+After that, node_modules and the Python virtual environment are reused, so startup is much faster.
+
+PROJECT
+-------
+Traffic Congestion Level Prediction Using Random Forest and Gradient-Boosted Trees
+Team: P. Laxman Reddy (2520030097), R. Varshith Reddy (2520030250)
+Section: 9
+Guide: M. Rani
+
+DATASET
+-------
+The bundled CSV contains 6,000 project-ready traffic records.
+You can replace it from the dashboard using the CSV upload/retrain panel.
+
+IMPORTANT
+---------
+The route map is a project route visualization. It is not a live Google Maps traffic feed.
+Predictions are produced by the trained models from the supplied dataset.
