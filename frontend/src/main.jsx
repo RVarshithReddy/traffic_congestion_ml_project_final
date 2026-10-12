@@ -27,7 +27,7 @@ import 'leaflet/dist/leaflet.css';
 import './styles.css';
 
 
-const API = 'http://localhost:5000/api';
+const API = 'https://traffic-congestion-ml-project-final.onrender.com/api';
 
 const DAY_NAMES = [
   'Monday',
